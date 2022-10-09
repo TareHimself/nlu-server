@@ -1,0 +1,5 @@
+.rasa
+models/*
+venv
+__pycache__
+temp_nlu.yml

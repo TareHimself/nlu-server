@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nlu-server"
+version = "0.1.0"
+description = ""
+authors = ["Tare Ebelo <75279482+TareHimself@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "rasa_server"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+rasa = "^3.2.10"
+
+aiodns = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
