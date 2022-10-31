@@ -1,5 +1,7 @@
 .rasa
 models/*
 venv
+node_modules
 __pycache__
 temp_nlu.yml
+models/*
